@@ -1,6 +1,6 @@
 {{- range services }}
 
-{{- if .Tags | contains "http" }}
+{{- if .Tags | contains "nginx" }}
 
 {{- $name := .Name }}
 
