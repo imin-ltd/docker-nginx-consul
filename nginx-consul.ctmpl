@@ -1,3 +1,7 @@
+server {
+    listen 80;
+    return 444;
+}
 {{- range services }}
 
 {{- if .Tags | contains "nginx" }}
