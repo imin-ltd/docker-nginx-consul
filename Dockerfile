@@ -14,4 +14,4 @@ ADD nginx-consul.ctmpl /templates/
 EXPOSE 80
 
 ENTRYPOINT ["consul-template","-config=/etc/consul-template.d"]
-CMD ["-consul=consul:8500"]
+CMD ["-consul=consul-8500.service.consul:8500"]
